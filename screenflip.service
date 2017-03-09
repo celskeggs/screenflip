@@ -1,0 +1,8 @@
+[Unit]
+Description=screenflip daemon
+
+[Service]
+ExecStart=/usr/bin/python3 /home/cel/src-git/screenflip/screenflip.py
+
+[Install]
+WantedBy=default.target
